@@ -1,6 +1,10 @@
 # Audit Log Investigation
 
-Phase 01 — Product Brief · Status: awaiting human review
+Phase 01 — Product Brief · Status: approved by the Product Designer
+
+**FACT — Project approval:** The Product Designer approved Phase 01 in this task and explicitly instructed that Phase 02 must not start yet. Figma modification remains out of scope.
+
+**DESIGN DECISION — Approved product understanding:** This brief is the approved Phase 01 baseline. Approval accepts the problem framing, scope, and documented provisional understanding; it does not turn assumptions into research findings or resolve open questions.
 
 Source: [UI Coach — Audit Log Investigation](https://www.uicoach.io/challenges/audit-log-investigation). The complete challenge was reviewed, including its background, user context, objective, required experience, critical path, requirements, constraints, edge states, mock data, deliverable, and optional resources.
 
@@ -8,7 +12,7 @@ Evidence labels used throughout:
 
 - **FACT** — stated in the challenge; describes a fictional design brief, not validated user research. Project instructions are explicitly attributed separately.
 - **ASSUMPTION** — provisional interpretation, proposed criterion, or potential risk requiring validation.
-- **DESIGN DECISION** — a choice requiring human ownership. No new product, UX, information architecture, or visual decisions are approved in this brief.
+- **DESIGN DECISION** — a choice requiring human ownership. Phase 01 product understanding is approved; information architecture, UI, visual direction, and implementation choices remain deferred.
 - **OPEN QUESTION** — unresolved information to clarify with the indicated stakeholder.
 
 ## 1. Product Problem
@@ -234,9 +238,11 @@ These are **ASSUMPTION** proposals for qualitative evaluation, not measured outc
 
 **DESIGN DECISION — Deferred:** Do not yet choose information architecture, navigation, query controls, relationship visualization, automatic linking, uncertainty presentation, export format, visual direction, components, or responsive behavior. Do not classify the activity as malicious or assume the export completed.
 
-### HUMAN REVIEW REQUIRED
+### HUMAN REVIEW REQUIRED — Completed for Phase 01
 
-The Product Designer must approve the following before Phase 02 — UX Assumptions:
+**FACT — Approval record:** The Product Designer approved Phase 01. The review checklist below is retained as the record of what was presented for approval; its questions are no longer a pending Phase 01 approval request. Stakeholder questions elsewhere in this document remain unresolved.
+
+Original Phase 01 review checklist:
 
 - **OPEN QUESTION:** Is the product-problem framing and primary-user interpretation faithful to the challenge?
 - **OPEN QUESTION:** Are the main and supporting JTBD suitable provisional formulations?
@@ -245,4 +251,4 @@ The Product Designer must approve the following before Phase 02 — UX Assumptio
 - **OPEN QUESTION:** Are the proposed qualitative success criteria and risk framing appropriate?
 - **OPEN QUESTION:** Is the boundary between challenge facts, project constraints, assumptions, and deferred decisions clear enough to authorize Phase 02?
 
-**DESIGN DECISION — Pending human approval:** Progression to Phase 02. Approval of this brief does not approve an information architecture, UI, visual direction, or implementation approach.
+**DESIGN DECISION — Phase boundary:** Phase 01 is approved and complete. Phase 02 remains on hold under the Product Designer's explicit instruction and requires a separate instruction to begin. Approval of this brief does not approve an information architecture, UI, visual direction, or implementation approach.
