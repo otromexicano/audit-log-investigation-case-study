@@ -1,0 +1,1114 @@
+{
+  "readOnly": true,
+  "auditDate": "2026-09-23",
+  "layoutFailures": [],
+  "tableScroll": [
+    {
+      "id": "138:1822",
+      "width": 1408,
+      "scroll": "HORIZONTAL",
+      "clips": true,
+      "startX": 8,
+      "contentWidth": 1200
+    },
+    {
+      "id": "138:2261",
+      "width": 1248,
+      "scroll": "HORIZONTAL",
+      "clips": true,
+      "startX": 8,
+      "contentWidth": 1200
+    },
+    {
+      "id": "138:2682",
+      "width": 992,
+      "scroll": "HORIZONTAL",
+      "clips": true,
+      "startX": 8,
+      "contentWidth": 1200
+    },
+    {
+      "id": "138:3103",
+      "width": 736,
+      "scroll": "HORIZONTAL",
+      "clips": true,
+      "startX": 8,
+      "contentWidth": 1200
+    },
+    {
+      "id": "138:3524",
+      "width": 358,
+      "scroll": "HORIZONTAL",
+      "clips": true,
+      "startX": 8,
+      "contentWidth": 1200
+    }
+  ],
+  "largeCounts": [
+    {
+      "text": "1,234,567+ matches (synthetic)",
+      "state": "Lower bound"
+    },
+    {
+      "text": "1,234,567+ matches (synthetic)",
+      "state": "Lower bound"
+    },
+    {
+      "text": "1,234,567+ matches (synthetic)",
+      "state": "Lower bound"
+    },
+    {
+      "text": "1,234,567+ matches (synthetic)",
+      "state": "Lower bound"
+    },
+    {
+      "text": "1,234,567+ matches (synthetic)",
+      "state": "Lower bound"
+    }
+  ],
+  "counts": {
+    "nodes": 5919,
+    "components": 61,
+    "sets": 13,
+    "instances": 1668,
+    "paintCount": 3797,
+    "semanticPaints": 3797
+  },
+  "sets": [
+    {
+      "id": "123:644",
+      "name": "Filter Chip",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Default",
+            "Hover",
+            "Focus"
+          ]
+        }
+      },
+      "properties": {
+        "Filter label#123:3": {
+          "type": "TEXT",
+          "defaultValue": "Actor · source-qualified identifier"
+        },
+        "Removable#123:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Remove action#123:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "95:47",
+          "preferredValues": []
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "124:754",
+      "name": "Result Count",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Exact",
+            "Lower bound",
+            "Unknown"
+          ]
+        }
+      },
+      "properties": {
+        "Count#124:2": {
+          "type": "TEXT",
+          "defaultValue": "Count not supplied"
+        },
+        "Loaded range#124:3": {
+          "type": "TEXT",
+          "defaultValue": "Loaded range: not supplied"
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Exact",
+          "variantOptions": [
+            "Exact",
+            "Lower bound",
+            "Unknown"
+          ]
+        }
+      }
+    },
+    {
+      "id": "124:767",
+      "name": "Capped / Incomplete Results Indicator",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Capped",
+            "Incomplete Coverage",
+            "Unknown Coverage"
+          ]
+        }
+      },
+      "properties": {
+        "Coverage metadata#138:0": {
+          "type": "TEXT",
+          "defaultValue": "Source / interval / cap metadata: not supplied"
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Capped",
+          "variantOptions": [
+            "Capped",
+            "Incomplete Coverage",
+            "Unknown Coverage"
+          ]
+        }
+      }
+    },
+    {
+      "id": "124:904",
+      "name": "Query Status",
+      "count": 6,
+      "axes": {
+        "State": {
+          "values": [
+            "Complete",
+            "Large Result Set",
+            "Capped",
+            "Incomplete Coverage",
+            "Loading",
+            "Error"
+          ]
+        }
+      },
+      "properties": {
+        "Execution context#124:13": {
+          "type": "TEXT",
+          "defaultValue": "Execution time: not supplied · Query revision: not supplied"
+        },
+        "Show coverage limitation#124:14": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Complete",
+          "variantOptions": [
+            "Complete",
+            "Large Result Set",
+            "Capped",
+            "Incomplete Coverage",
+            "Loading",
+            "Error"
+          ]
+        }
+      }
+    },
+    {
+      "id": "125:811",
+      "name": "Evidence Marker",
+      "count": 2,
+      "axes": {
+        "State": {
+          "values": [
+            "Source event",
+            "Retained evidence"
+          ]
+        }
+      },
+      "properties": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Source event",
+          "variantOptions": [
+            "Source event",
+            "Retained evidence"
+          ]
+        }
+      }
+    },
+    {
+      "id": "126:961",
+      "name": "Relationship Reference",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Unresolved",
+            "Confirmed",
+            "Unavailable"
+          ]
+        }
+      },
+      "properties": {
+        "Entity reference#126:12": {
+          "type": "TEXT",
+          "defaultValue": "Session · source-qualified reference"
+        },
+        "Source reference#126:14": {
+          "type": "TEXT",
+          "defaultValue": "Supporting source / event reference: not supplied"
+        },
+        "Show inspect action#126:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Unresolved",
+          "variantOptions": [
+            "Unresolved",
+            "Confirmed",
+            "Unavailable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "127:1164",
+      "name": "Event Cell",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Text",
+            "Timestamp",
+            "Header"
+          ]
+        }
+      },
+      "properties": {
+        "Value#127:19": {
+          "type": "TEXT",
+          "defaultValue": "Source value"
+        },
+        "Supporting value#127:20": {
+          "type": "TEXT",
+          "defaultValue": "Source-qualified context"
+        },
+        "Show supporting value#127:21": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Text",
+            "Timestamp",
+            "Header"
+          ]
+        }
+      }
+    },
+    {
+      "id": "127:1298",
+      "name": "Event Row",
+      "count": 4,
+      "axes": {
+        "State": {
+          "values": [
+            "Default",
+            "Hover",
+            "Selected",
+            "Focus"
+          ]
+        }
+      },
+      "properties": {
+        "Evidence marker component#127:27": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "125:793",
+          "preferredValues": []
+        },
+        "Show evidence markers#127:28": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Analyst flag note#127:29": {
+          "type": "TEXT",
+          "defaultValue": "Analyst flagged for follow-up · no threat verdict"
+        },
+        "Show analyst flag#127:30": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show keyboard focus#138:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Selected",
+            "Focus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "134:1231",
+      "name": "Event Column Header",
+      "count": 4,
+      "axes": {
+        "State": {
+          "values": [
+            "Not sortable",
+            "Sortable",
+            "Ascending",
+            "Descending"
+          ]
+        }
+      },
+      "properties": {
+        "Column label#134:4": {
+          "type": "TEXT",
+          "defaultValue": "Timestamp"
+        },
+        "Sort action asset#134:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "95:47",
+          "preferredValues": []
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Not sortable",
+          "variantOptions": [
+            "Not sortable",
+            "Sortable",
+            "Ascending",
+            "Descending"
+          ]
+        }
+      }
+    },
+    {
+      "id": "134:1396",
+      "name": "Timeline Connector / Sequence Indicator",
+      "count": 4,
+      "axes": {
+        "State": {
+          "values": [
+            "Displayed order",
+            "Observed order",
+            "Inferred relationship",
+            "Unknown timing confidence"
+          ]
+        }
+      },
+      "properties": {
+        "Ordering basis#134:11": {
+          "type": "TEXT",
+          "defaultValue": "Ordering basis and source-clock comparability must accompany the sequence."
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Displayed order",
+          "variantOptions": [
+            "Displayed order",
+            "Observed order",
+            "Inferred relationship",
+            "Unknown timing confidence"
+          ]
+        }
+      }
+    },
+    {
+      "id": "134:1483",
+      "name": "Timeline Event",
+      "count": 3,
+      "axes": {
+        "State": {
+          "values": [
+            "Default",
+            "Selected",
+            "Focus"
+          ]
+        }
+      },
+      "properties": {
+        "Position context#134:24": {
+          "type": "TEXT",
+          "defaultValue": "Anchor context · displayed position"
+        },
+        "Event title#134:25": {
+          "type": "TEXT",
+          "defaultValue": "Administrator role assigned"
+        },
+        "Timing#134:26": {
+          "type": "TEXT",
+          "defaultValue": "Original event time: 09:19 · date/timezone unknown\nIngestion time: not supplied"
+        },
+        "Provenance#134:27": {
+          "type": "TEXT",
+          "defaultValue": "Source: Identity log · event reference not supplied"
+        },
+        "Evidence marker#134:28": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "125:793",
+          "preferredValues": []
+        },
+        "Arrival qualification#134:29": {
+          "type": "TEXT",
+          "defaultValue": "Late-arriving event · reported four-minute ingestion delay"
+        },
+        "Show late arrival#134:30": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Clock qualification#134:31": {
+          "type": "TEXT",
+          "defaultValue": "Clock quality unknown · displayed order may differ from observed order"
+        },
+        "Show clock qualification#134:32": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show inference marker#134:33": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Gap detail#134:34": {
+          "type": "TEXT",
+          "defaultValue": "Data gap basis not supplied; do not infer a retention interval."
+        },
+        "Show data gap#134:35": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show keyboard focus#138:9": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Selected",
+            "Focus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "135:1555",
+      "name": "Evidence Item",
+      "count": 5,
+      "axes": {
+        "State": {
+          "values": [
+            "Not requested",
+            "Pending",
+            "Retained",
+            "Failed",
+            "Reference only"
+          ]
+        }
+      },
+      "properties": {
+        "Source event reference#135:9": {
+          "type": "TEXT",
+          "defaultValue": "Source event · immutable reference not supplied"
+        },
+        "Provenance#135:10": {
+          "type": "TEXT",
+          "defaultValue": "Source: not supplied\nOriginal timestamp / ingestion time / clock quality: not supplied\nPreservation receipt / actor / time: not supplied"
+        },
+        "Inclusion record#135:11": {
+          "type": "TEXT",
+          "defaultValue": "Package inclusion: not included · no fixed version supplied"
+        },
+        "Analyst note#135:12": {
+          "type": "TEXT",
+          "defaultValue": "Analyst-authored context · author / revision not supplied"
+        },
+        "Show analyst note#135:13": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Analyst inference#135:14": {
+          "type": "TEXT",
+          "defaultValue": "Interpretation · cite exact supporting records and disclose alternatives. No causal relationship is established."
+        },
+        "Show analyst inference#135:15": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Data gap#135:16": {
+          "type": "TEXT",
+          "defaultValue": "Unresolved limitation · record the affected field or documented interval and source."
+        },
+        "Show data gap#135:17": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Not requested",
+          "variantOptions": [
+            "Not requested",
+            "Pending",
+            "Retained",
+            "Failed",
+            "Reference only"
+          ]
+        }
+      }
+    },
+    {
+      "id": "135:1776",
+      "name": "Evidence Package Status",
+      "count": 6,
+      "axes": {
+        "State": {
+          "values": [
+            "Draft",
+            "Incomplete",
+            "Ready for Review",
+            "Ready for Export",
+            "Exported",
+            "Error"
+          ]
+        }
+      },
+      "properties": {
+        "Package reference#135:23": {
+          "type": "TEXT",
+          "defaultValue": "Package version / manifest / integrity record: not supplied"
+        },
+        "Readiness details#135:24": {
+          "type": "TEXT",
+          "defaultValue": "Use actual readiness findings, affected item references and permitted recovery actions."
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Draft",
+          "variantOptions": [
+            "Draft",
+            "Incomplete",
+            "Ready for Review",
+            "Ready for Export",
+            "Exported",
+            "Error"
+          ]
+        }
+      }
+    }
+  ],
+  "singles": [
+    {
+      "id": "123:645",
+      "name": "Date / Time Range Control",
+      "properties": {
+        "Title#123:6": {
+          "type": "TEXT",
+          "defaultValue": "Time window"
+        },
+        "Time semantics#123:7": {
+          "type": "TEXT",
+          "defaultValue": "Timezone: unknown until supplied. Boundary inclusion and precision follow supported query semantics. Original timestamps remain unchanged."
+        }
+      }
+    },
+    {
+      "id": "123:685",
+      "name": "Advanced Filter Group",
+      "properties": {
+        "Title#123:8": {
+          "type": "TEXT",
+          "defaultValue": "Refine authorized events"
+        },
+        "Matching rules#123:9": {
+          "type": "TEXT",
+          "defaultValue": "Matching and combination rules: supplied by query service; not assumed. Unsupported fields must be explained before applying."
+        }
+      }
+    },
+    {
+      "id": "123:775",
+      "name": "Filter Bar",
+      "properties": {
+        "Filter count#123:10": {
+          "type": "TEXT",
+          "defaultValue": "2 active filters"
+        },
+        "Show active filters#123:11": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show advanced filters#123:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Effective query#123:13": {
+          "type": "TEXT",
+          "defaultValue": "Applied query: source-provided criteria and matching semantics. Pending edits are not the last executed query."
+        },
+        "Return context#123:14": {
+          "type": "TEXT",
+          "defaultValue": "Previous query Q1 → proposed refinement Q2. Keep the selected anchor accessible if excluded. Restoring criteria does not restore historic results."
+        }
+      }
+    },
+    {
+      "id": "125:812",
+      "name": "Inference Marker",
+      "properties": {}
+    },
+    {
+      "id": "125:821",
+      "name": "Analyst Note Marker",
+      "properties": {}
+    },
+    {
+      "id": "125:835",
+      "name": "Data Gap Marker",
+      "properties": {}
+    },
+    {
+      "id": "127:1165",
+      "name": "Event Table / Header",
+      "properties": {
+        "Show sort guidance#127:22": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Order description#128:1": {
+          "type": "TEXT",
+          "defaultValue": "Order: source-provided. Sort control is available only when supported."
+        }
+      }
+    },
+    {
+      "id": "127:1299",
+      "name": "Event Table",
+      "properties": {
+        "Event rows#127:31": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Result qualification#127:32": {
+          "type": "TEXT",
+          "defaultValue": "Illustrative 4-row specimen. Coverage unknown; these rows are not a complete query result."
+        }
+      }
+    },
+    {
+      "id": "128:1121",
+      "name": "Event Detail / Content",
+      "properties": {
+        "Event identity#128:2": {
+          "type": "TEXT",
+          "defaultValue": "Administrator role assigned · event ID not supplied"
+        },
+        "Timestamp provenance#128:3": {
+          "type": "TEXT",
+          "defaultValue": "Original event time: 09:19 · date/timezone not supplied\nIngestion time: not supplied\nIdentity log clock: verified (brief fact)"
+        },
+        "Actor and role#128:4": {
+          "type": "TEXT",
+          "defaultValue": "Assigning identity: not supplied\nRole recipient: not supplied; do not equate with assigner"
+        },
+        "Resource#128:5": {
+          "type": "TEXT",
+          "defaultValue": "Administrator role · source resource ID not supplied"
+        },
+        "Source#128:6": {
+          "type": "TEXT",
+          "defaultValue": "Identity log · original payload not supplied"
+        },
+        "Observed facts#128:7": {
+          "type": "TEXT",
+          "defaultValue": "The supplied brief reports an administrator role assignment at 09:19. Authorization, intent and causality are not established."
+        },
+        "Evidence state#128:8": {
+          "type": "TEXT",
+          "defaultValue": "Live source observation · preservation not confirmed"
+        },
+        "Show evidence actions#128:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Analyst note#134:6": {
+          "type": "TEXT",
+          "defaultValue": "Analyst-authored context. Author / revision not supplied."
+        },
+        "Show analyst note#134:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Analyst inference#134:8": {
+          "type": "TEXT",
+          "defaultValue": "Interpretation requires cited support and explicit limitations. No causal claim is established."
+        },
+        "Show analyst inference#134:9": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      }
+    },
+    {
+      "id": "128:1227",
+      "name": "Event Detail Summary",
+      "properties": {}
+    },
+    {
+      "id": "134:1484",
+      "name": "Timeline Group",
+      "properties": {
+        "Group label#134:36": {
+          "type": "TEXT",
+          "defaultValue": "Before / anchor / after · supplied sequence"
+        },
+        "Scope and ordering#134:37": {
+          "type": "TEXT",
+          "defaultValue": "Displayed by supplied event-time labels. Date/timezone and cross-source clock comparability unknown. Spacing is not elapsed time."
+        },
+        "Sequence entries#134:38": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        }
+      }
+    },
+    {
+      "id": "135:1556",
+      "name": "Evidence Group",
+      "properties": {
+        "Group title#135:18": {
+          "type": "TEXT",
+          "defaultValue": "Source observations and preservation outcomes"
+        },
+        "Group qualification#135:19": {
+          "type": "TEXT",
+          "defaultValue": "Retention is confirmed per item. Selecting an item does not preserve it or export it."
+        },
+        "Evidence entries#135:20": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        }
+      }
+    }
+  ],
+  "duplicateNames": [],
+  "unresolvedInstances": [],
+  "rawPaints": [],
+  "unboundSpacing": [],
+  "unboundRadius": [],
+  "unstyledTexts": [],
+  "overflow": [
+    {
+      "id": "138:2683",
+      "name": "Table stress",
+      "parent": "Horizontal table viewport"
+    },
+    {
+      "id": "138:3104",
+      "name": "Table stress",
+      "parent": "Horizontal table viewport"
+    },
+    {
+      "id": "138:3525",
+      "name": "Table stress",
+      "parent": "Horizontal table viewport"
+    }
+  ],
+  "paintFallbackMismatch": [],
+  "primitivePaints": [],
+  "textContrast": {
+    "tested": 1101,
+    "min": 6.244542023389956,
+    "failures": []
+  },
+  "iconContrast": {
+    "tested": 186,
+    "min": 7.0486692673925715,
+    "failures": []
+  },
+  "opaqueGlyphContainers": [],
+  "boards": [
+    {
+      "id": "123:626",
+      "name": "Filtering / Investigation documentation",
+      "width": 1440,
+      "height": 1596,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "124:738",
+      "name": "Query / Coverage / Investigation documentation",
+      "width": 1440,
+      "height": 3036,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "125:789",
+      "name": "Evidence / Investigation documentation",
+      "width": 1440,
+      "height": 704,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "126:900",
+      "name": "Relationships / Investigation documentation",
+      "width": 1440,
+      "height": 1720,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "127:1151",
+      "name": "Event Table / Investigation documentation",
+      "width": 1440,
+      "height": 2072,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "134:1326",
+      "name": "Event Detail / Investigation documentation",
+      "width": 1440,
+      "height": 1848,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "134:1380",
+      "name": "Timeline / Investigation documentation",
+      "width": 1440,
+      "height": 3404,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "135:1339",
+      "name": "Evidence Package / Investigation documentation",
+      "width": 1440,
+      "height": 3720,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "138:1480",
+      "name": "Content resilience / Investigation documentation",
+      "width": 1600,
+      "height": 17076,
+      "vertical": "HUG",
+      "clips": false
+    },
+    {
+      "id": "140:3403",
+      "name": "Additional resilience / Investigation documentation",
+      "width": 480,
+      "height": 2296,
+      "vertical": "HUG",
+      "clips": false
+    }
+  ],
+  "widthProbes": [
+    {
+      "id": "138:1484",
+      "width": 1440,
+      "height": 3104
+    },
+    {
+      "id": "138:2015",
+      "width": 1280,
+      "height": 3104
+    },
+    {
+      "id": "138:2436",
+      "width": 1024,
+      "height": 3104
+    },
+    {
+      "id": "138:2857",
+      "width": 768,
+      "height": 3204
+    },
+    {
+      "id": "138:3278",
+      "width": 390,
+      "height": 4128
+    }
+  ],
+  "foundationCounts": {
+    "variables": 147,
+    "textStyles": 10,
+    "effectStyles": 3
+  },
+  "semanticChecks": {
+    "readOnly": true,
+    "coreComponents": 159,
+    "coreSets": 15,
+    "coverage": [
+      {
+        "state": "Capped",
+        "limitation": true,
+        "binding": {},
+        "coverage": "Source coverage: unknown unless supplied. Retrieval status does not establish coverage."
+      },
+      {
+        "state": "Incomplete Coverage",
+        "limitation": true,
+        "binding": {},
+        "coverage": "Source coverage: incomplete. See affected source, interval and basis below."
+      }
+    ],
+    "variantAxes": [
+      {
+        "name": "Filter Chip",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Result Count",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Capped / Incomplete Results Indicator",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Query Status",
+        "axes": [
+          "State"
+        ],
+        "count": 6
+      },
+      {
+        "name": "Evidence Marker",
+        "axes": [
+          "State"
+        ],
+        "count": 2
+      },
+      {
+        "name": "Relationship Reference",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Event Cell",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Event Row",
+        "axes": [
+          "State"
+        ],
+        "count": 4
+      },
+      {
+        "name": "Event Column Header",
+        "axes": [
+          "State"
+        ],
+        "count": 4
+      },
+      {
+        "name": "Timeline Connector / Sequence Indicator",
+        "axes": [
+          "State"
+        ],
+        "count": 4
+      },
+      {
+        "name": "Timeline Event",
+        "axes": [
+          "State"
+        ],
+        "count": 3
+      },
+      {
+        "name": "Evidence Item",
+        "axes": [
+          "State"
+        ],
+        "count": 5
+      },
+      {
+        "name": "Evidence Package Status",
+        "axes": [
+          "State"
+        ],
+        "count": 6
+      }
+    ],
+    "smallTargets": [],
+    "targetCount": 30,
+    "minimumTarget": 32,
+    "tableSlot": [
+      "Event rows"
+    ],
+    "timelineSlot": [
+      "Sequence entries"
+    ],
+    "evidenceSlot": [
+      "Evidence entries"
+    ],
+    "sortStates": [
+      "State=Not sortable",
+      "State=Sortable",
+      "State=Ascending",
+      "State=Descending"
+    ],
+    "packageStates": [
+      "State=Draft",
+      "State=Incomplete",
+      "State=Ready for Review",
+      "State=Ready for Export",
+      "State=Exported",
+      "State=Error"
+    ],
+    "independentFocus": [
+      {
+        "id": "127:1298",
+        "focusBoolean": true
+      },
+      {
+        "id": "134:1483",
+        "focusBoolean": true
+      }
+    ]
+  },
+  "findings": {
+    "critical": [],
+    "major": [],
+    "minor": [],
+    "expectedOverflow": "Three 1200 px tables intentionally exceed labeled horizontal scrolling viewports at 1024, 768 and 390 px. All start at x=8; no other geometric overflow found."
+  },
+  "outcome": "INVESTIGATION COMPONENTS APPROVED — READY FOR HIGH FIDELITY"
+}
