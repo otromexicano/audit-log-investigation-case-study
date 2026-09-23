@@ -1,0 +1,79 @@
+{
+  "functionalBorders": {
+    "method": "Functional boundaries compared with exterior adjacent surface. External focus rings compared with dark separation and exterior surface, not the nonadjacent control interior. Decorative borders and disabled controls excluded.",
+    "source": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+    "tested": 127,
+    "min": 4.493907787466726,
+    "failures": [],
+    "focusMin": 11.861670717798251,
+    "focusCount": 42
+  },
+  "targets": {
+    "tested": 122,
+    "minWidth": 32,
+    "minHeight": 32,
+    "below24": []
+  },
+  "focus": {
+    "variants": 28,
+    "missing": []
+  },
+  "unwiredProperties": [],
+  "initialOverbroadBoundaryCheck": {
+    "tested": 127,
+    "min": 1,
+    "failures": [
+      {
+        "id": "91:29",
+        "name": "color/border/focus",
+        "ratio": 1.48165021296171
+      },
+      {
+        "id": "91:51",
+        "name": "color/border/focus",
+        "ratio": 1.48165021296171
+      },
+      {
+        "id": "91:73",
+        "name": "color/border/focus",
+        "ratio": 1.48165021296171
+      },
+      {
+        "id": "91:235",
+        "name": "color/status/critical",
+        "ratio": 1
+      },
+      {
+        "id": "91:239",
+        "name": "color/status/critical",
+        "ratio": 1.420526346963988
+      },
+      {
+        "id": "91:257",
+        "name": "color/status/critical",
+        "ratio": 1
+      },
+      {
+        "id": "91:261",
+        "name": "color/status/critical",
+        "ratio": 1.420526346963988
+      },
+      {
+        "id": "91:279",
+        "name": "color/status/critical",
+        "ratio": 1
+      },
+      {
+        "id": "91:283",
+        "name": "color/status/critical",
+        "ratio": 1.420526346963988
+      },
+      {
+        "id": "I110:443;91:51",
+        "name": "color/border/focus",
+        "ratio": 1.48165021296171
+      }
+    ],
+    "explanation": "Diagnostic compared nonadjacent interiors, creating false positives. Actual adjacency verified separately against W3C guidance; no Figma mutation."
+  }
+}
