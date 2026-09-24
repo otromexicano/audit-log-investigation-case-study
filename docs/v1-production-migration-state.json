@@ -1,0 +1,26 @@
+{
+  "runId": "v1-production-migration-20260924",
+  "fileKey": "33KL5MbUxw5x38J7V6AjvK",
+  "phase": "phase1",
+  "step": "foundations-migration",
+  "baseline": {
+    "primitiveVariables": 54,
+    "semanticVariables": 93,
+    "productionTextStyles": 10,
+    "coreComponentSets": 15,
+    "investigationComponentSets": 13,
+    "hiFiInstances": 307
+  },
+  "constraints": {
+    "preserveH5": true,
+    "preserveHistoricalExplorations": true,
+    "preserveCandidatePilot": true,
+    "componentsNotYetAuthorized": true
+  },
+  "completedSteps": [
+    "phase0"
+  ],
+  "pendingValidations": [
+    "phase1-foundations-read-only-audit"
+  ]
+}
