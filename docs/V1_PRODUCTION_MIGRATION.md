@@ -2,7 +2,7 @@
 
 ## Status
 
-V1 production Foundations and Components represent the approved **V1 — Enterprise Security** direction. Component migration is complete. Hi-Fi migration remains deferred.
+V1 production Foundations, Components, and Hi-Fi represent the approved **V1 — Enterprise Security** direction. Phase 3 Hi-Fi migration is complete and ready for the separately scoped responsive phase.
 
 ## Component migration summary
 
@@ -85,8 +85,67 @@ Final targeted read-only QA:
 
 ## Known limitations and deferred work
 
-**FACT** — Hi-Fi screens on `07 — Hi-Fi` were not modified during component migration or targeted remediation.
+**FACT** — Hi-Fi screens on `07 — Hi-Fi` were not modified during component migration or targeted remediation. They were migrated later under the separately authorized Phase 3 work recorded below.
 
 **OPEN QUESTION** — Product-level validation in implemented UI remains necessary for runtime keyboard order, assistive-technology announcements, browser text rendering, localization expansion, and data-driven extremes beyond the documented specimens.
 
-**DEFERRED** — Apply the approved V1 production components to Hi-Fi only in the separately authorized Hi-Fi migration phase.
+## Phase 3 — V1 Hi-Fi migration
+
+### Hi-Fi migration summary
+
+**FACT** — The four existing production screens on `07 — Hi-Fi` were migrated in place. H5 information architecture, navigation destinations, investigation flow, query behavior, evidence architecture, uncertainty semantics, package lifecycle, and supplied case content were preserved.
+
+Screens migrated:
+
+- `01 — Investigation Overview`
+- `02 — Event Explorer`
+- `03 — Activity Reconstruction`
+- `04 — Evidence Package`
+- `05 — Representative states / conditional specimens`
+
+**DESIGN DECISION** — The existing persistent shell frames were converted from a horizontal header to a 240 px dark operational sidebar. The same 16 linked Navigation Item instances remain in use across the four screens. Case identity, investigation status, analyst identity, declared scope, selected anchor, retention uncertainty, relationship uncertainty, and all four peer destinations remain visible.
+
+### Component reuse
+
+- Existing production instances were retained for core and investigation components.
+- No production component family or screen-specific component copy was created.
+- No instance was detached.
+- The Event Explorer retains the approved seven-column Event Table and existing Event Detail composition.
+- Activity Reconstruction retains the production Timeline Event family and its qualified ordering, provenance, clock, late-arrival, inference, gap, and source-action semantics.
+- Evidence Package retains distinct observation, preservation, inclusion, inference, note, gap, provenance, readiness, and blocking-condition structures.
+- A missing approved Query Error specimen was added by cloning the existing production Panel composition and switching its linked Query Status instance to the production `Error` variant. No case fact was added.
+
+### Layout changes
+
+- The four production screen frames now use horizontal Auto Layout: fixed 240 px shell plus Fill-width light workspace.
+- Existing shell groups were reorganized in place into vertical case identity/status, navigation, and persistent-context regions.
+- The Event Table instance remains unchanged and is composed inside a clipping horizontal viewport. Its minimum grid width is 1136 px, preserving all seven columns at constrained desktop widths without compressing cells into unreadable columns.
+- Two representative Timeline Event slot instances were refreshed against the remediated production family so timing, evidence state, late arrival, clock qualification, gap detail, and source action no longer clip.
+
+### Typography validation
+
+All inspected production Hi-Fi text resolves to IBM Plex Sans or IBM Plex Mono. No unstyled text nodes or local exploratory typography remain. Dense table and metadata content retain production line heights and wrap instead of using the exploratory 10 px treatment.
+
+### Accessibility validation
+
+Design-level review supports the WCAG 2.2 AA target for shell text, table headers, body text, metadata, selected states, focus states, warning/critical treatments, evidence markers, disabled states, and functional boundaries. Status and evidence meanings remain explicit and do not rely on color alone. This is not a claim of keyboard, screen-reader, browser, or runtime implementation compliance.
+
+### Structural responsive preparation
+
+Temporary resize probes were run and restored; no responsive screens were created.
+
+| Probe | Result |
+| --- | --- |
+| 1440 | PASS — four screens retain the 240 px shell and full workspace hierarchy; Event Table height 404 px. |
+| 1280 | PASS — content reflows; Event Table stays 1136 px inside a 976 px horizontal viewport rather than collapsing columns. |
+| 1024 | PASS — content reflows without screen-level lateral leakage; Event Table stays 1136 px inside a 720 px horizontal viewport. |
+
+### Unresolved issues and deferred responsive work
+
+- **DEFERRED** — Full 768 and 390 product-screen adaptations remain Phase 10 work.
+- **DEFERRED** — Compact rail/drawer interaction, runtime horizontal scrolling, keyboard order, focus restoration, announcements, browser font rendering, localization expansion, and assistive-technology behavior require implementation validation.
+- **OPEN QUESTION** — Exact backend contracts for query completeness, preservation receipts, package integrity, and late-arrival reassessment remain unchanged.
+
+## Phase 3 final read-only QA
+
+The final audit is performed after Figma modification stops. Its counts and verdict are reported in the Phase 3 handoff; no later live-file state is certified by this document.

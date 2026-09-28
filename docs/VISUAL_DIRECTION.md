@@ -2,6 +2,12 @@
 
 Phase 07 — Visual Direction · Status: approved by the Product Designer
 
+## Production direction update
+
+**DESIGN DECISION — Subsequent human approval:** The Product Designer later approved **V1 — Enterprise Security** as the production visual direction for Foundations, Components, and Hi-Fi while preserving **H5 — Selected Direction** as the fixed UX architecture. This production pivot supersedes V2 for current product work; it does not erase the historical V2 selection documented below.
+
+**FACT — Historical record:** The remainder of this document preserves the original Phase 07 V2 selection and its rationale as exploration history. The V1 production system uses a dark operational shell, light workspace, IBM Plex Sans interface typography, IBM Plex Mono technical typography, restrained boundaries and radius, compact enterprise density, a dark table header, explicit focus/selection, and minimal decorative elevation.
+
 **FACT — Human Product Design decision:** The Product Designer selected **V2 — Modern Intelligence Platform** as the primary visual direction. V1 — Enterprise Security and V3 — Calm Investigation Workspace remain preserved in Figma as exploration evidence and are not selected as the product's primary direction.
 
 **DESIGN DECISION — Approved foundation:** Future visual design and Design System work will use **H5 — Selected Direction** for the UX architecture and **V2 — Modern Intelligence Platform** for the visual language. This decision does not alter the approved navigation model, information hierarchy, investigation flow, evidence model, terminology, or product requirements.
