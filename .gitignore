@@ -1,0 +1,6 @@
+prototype/node_modules/
+prototype/dist/
+prototype/qa/screenshots/
+prototype/qa/vite.log
+prototype/qa/vite-error.log
+prototype/**/*.tsbuildinfo
